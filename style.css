@@ -1,0 +1,44 @@
+body{
+    margin-left: 500px;
+   margin-top: 110px;
+}
+.container{
+    height: 480px;
+    width: 480px;
+    /* border: 2px solid ; */
+    
+    grid-template-columns: repeat(8,60px);
+    grid-template-rows: repeat(8,60px);
+    display: grid;
+    /* display: flex; */
+    /* position: fixed; */
+
+    
+
+}
+h1{
+    margin-left: 130px;
+    /* position: fixed; */
+}
+.white{
+    width: 60px;
+    height: 60px;
+    border: 2px solid;
+    background-color: burlywood;
+    font-size: 40px;
+  
+    
+    
+}
+.black{
+    width: 60px;
+    height: 60px;
+    border: 2px solid;
+    background-color: white;
+    font-size: 40px;
+    
+    
+    
+   
+    
+}
